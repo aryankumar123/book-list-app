@@ -1,0 +1,20 @@
+
+<h1>Book List</h1>
+
+<!-- <p>
+    my Book is {{book.author}} !
+</p>
+<p>
+    my Book is {{book.id}} !
+</p>
+<p>
+    my Book is {{book.title}} !
+</p> -->
+
+<ul>
+    <li *ngFor="let book of books">
+        <h3>{{book.title}}</h3>
+        <p>{{book.author}}</p>
+        <p>{{book.id}}</p>
+    </li>
+</ul>
